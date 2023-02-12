@@ -1,0 +1,22 @@
+.header {
+    background-color: grey;  
+    justify-content: center;
+}
+
+.header-conteudo {
+    display: flex;
+    align-items: center;
+}
+
+.imagem {
+    width: 3rem;
+    padding-top: 1rem;
+}
+
+.titulo {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+    margin: 0;
+}
