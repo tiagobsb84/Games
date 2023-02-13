@@ -10,6 +10,8 @@ import {MatMenuModule} from '@angular/material/menu';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { SectionComponent } from './components/section/section.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +23,9 @@ import { SectionComponent } from './components/section/section.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatMenuModule,
-    MatToolbarModule
+    MatToolbarModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
