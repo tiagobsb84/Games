@@ -65,8 +65,8 @@
         },
         {
             "id": 8,
-            "titulo": "Assassins creed chronicles china",
-            "imagem": "https://s3.amazonaws.com/comparegame/thumbnails/41471/large.jpg",
+            "titulo": "Assassin's Creed Chronicles",
+            "imagem": "https://upload.wikimedia.org/wikipedia/pt/2/29/Assassins-creed-chronicles.jpg",
             "genero": "aventura",
             "descricao": "",
             "traducao": "",
@@ -84,7 +84,7 @@
         {
             "id": 10,
             "titulo": "Payday the Heist",
-            "imagem": "https://static.miraheze.org/awesomegameswiki/1/10/Pdth.png",
+            "imagem": "https://upload.wikimedia.org/wikipedia/en/thumb/2/2f/Payday_-_The_Heist_%28video_game_box_art%29.jpg/220px-Payday_-_The_Heist_%28video_game_box_art%29.jpg",
             "genero": "fps",
             "descricao": "",
             "traducao": "",
@@ -345,7 +345,7 @@
         {
             "id": 39,
             "titulo": "Marvel Avengers",
-            "imagem": "https://torrent-xatab.net/uploads/posts/2019-06/1560687132_marvels-avengers.jpg",
+            "imagem": "https://www.conversadesofa.com/wp-content/uploads/2020/09/website-cover-image.jpg",
             "genero": "acao",
             "descricao": "",
             "traducao": "",

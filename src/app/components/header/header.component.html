@@ -1,23 +1,38 @@
 <div class="container">
-    <mat-toolbar class="header">
-            <div class="header-conteudo">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand titulo-logo" href="#">
                 <span>
                     <img class="imagem" src="assets/img/gamer-logo.png" alt="logo">
                 </span>
-                <span>
-                    <h1 class="titulo">TSO GAMER</h1>
-                </span>
+                TSO Gamer
+            </a>
+            <button class="navbar-toggler icon-menu-navegacao" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-navegacao">
+                    <li class="nav-item">
+                        <a class="nav-link link-navegacao" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle link-navegacao" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Categoria
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item link-navegacao-categoria" href="#">Ação</a></li>
+                            <li><a class="dropdown-item link-navegacao-categoria" href="#">Aventura</a></li>
+                            <li><a class="dropdown-item link-navegacao-categoria" href="#">FPS</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Pesquisar o jogo" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                </form>
             </div>
-    </mat-toolbar>
-    <div>
-        <button class="btn btn-outline-success" type="button">AÇÃO</button>
-        <button class="btn btn-outline-success" type="button">AVENTURA</button>
-        <button class="btn btn-outline-success" type="button">FPS</button>
-        <button class="btn btn-outline-success" type="button">RPG</button>
-        <button class="btn btn-outline-success" type="button">ESPORTE</button>
-        <button class="btn btn-outline-success" type="button">CORRIDA</button>
-        <button class="btn btn-outline-success" type="button">SIMULADOR</button>
-    </div>
+        </div>
+    </nav>
 </div>
 
 

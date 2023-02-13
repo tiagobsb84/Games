@@ -1,8 +1,17 @@
+.container {
+    background-color: #52657e;
+    border-radius: 1rem;
+}
+
 .cards {
     display: flex;
     flex-wrap: wrap;
     gap: 3rem;
     justify-content: center;
+}
+
+.card {
+    border: none;
 }
 
 .titulo {
@@ -11,7 +20,7 @@
     text-align: center;
     font-size: 3rem;
     font-weight: bold;
-    color: #5821c5;
+    color: whitesmoke;
 }
 
 .imagem {
@@ -31,6 +40,8 @@
 
 .corpo-card {
     text-align: center;
+    background-color: #141a3c;
+    color: white;
 }
 
 .titulo-card {
