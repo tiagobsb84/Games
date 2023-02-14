@@ -11,12 +11,18 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { SectionComponent } from './components/section/section.component';
 
 import { HttpClientModule } from '@angular/common/http';
+import { FooterComponent } from './components/footer/footer.component';
+import { AcaoComponent } from './components/categorias/acao/acao.component';
+import { AventuraComponent } from './components/categorias/aventura/aventura.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    SectionComponent
+    SectionComponent,
+    FooterComponent,
+    AcaoComponent,
+    AventuraComponent
   ],
   imports: [
     BrowserModule,

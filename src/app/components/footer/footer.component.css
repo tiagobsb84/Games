@@ -1,0 +1,14 @@
+.footer {
+    height: 3rem;
+    background-color: #52657e;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+}
+
+.footer-conteudo {
+    color: azure;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
