@@ -1,6 +1,6 @@
 <section class="container">
 
-    <h1 class="titulo">Top games</h1>
+    <h1 class="titulo">Home Games</h1>
 
     <div class="cards">
         <div class="card" *ngFor="let item of gamer">
@@ -10,7 +10,12 @@
             <div class="card-body corpo-card">
                 <h5 class="card-title titulo-card">{{ item.titulo }}</h5>
                 <p class="card-text genero-card">Genero: {{ item.genero }}</p>
-                <a href="{{ item.link }}" class="btn btn-primary">ACESSAR</a>
+                <a href="{{ item.link }}" class="btn btn-primary botao-dowload">
+                    <span>
+                        <img class="icon-torrent" src="assets/img/icon-torrent.ico" alt="icone-torrent">
+                    </span>
+                    Download
+                </a>
             </div>
         </div>
     </div>

@@ -57,3 +57,17 @@
 .genero-card {
     font-weight: bold;
 }
+
+.botao-dowload {
+    background-color: darkgreen;
+    border: none;
+    font-weight: bold;
+}
+
+.botao-dowload:hover {
+    opacity: .5;
+}
+
+.icon-torrent {
+    width: 1.4rem;
+}

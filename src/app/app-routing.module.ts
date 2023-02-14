@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AcaoComponent } from './components/categorias/acao/acao.component';
+import { AventuraComponent } from './components/categorias/aventura/aventura.component';
 import { SectionComponent } from './components/section/section.component';
 
 const routes: Routes = [
@@ -11,6 +12,10 @@ const routes: Routes = [
   {
     path: 'acao',
     component: AcaoComponent
+  },
+  {
+    path: 'aventura',
+    component: AventuraComponent
   }
 ];
 
