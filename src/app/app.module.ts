@@ -14,6 +14,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './components/footer/footer.component';
 import { AcaoComponent } from './components/categorias/acao/acao.component';
 import { AventuraComponent } from './components/categorias/aventura/aventura.component';
+import { FpsComponent } from './components/categorias/fps/fps.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AventuraComponent } from './components/categorias/aventura/aventura.com
     SectionComponent,
     FooterComponent,
     AcaoComponent,
-    AventuraComponent
+    AventuraComponent,
+    FpsComponent
   ],
   imports: [
     BrowserModule,
