@@ -1,0 +1,73 @@
+.container {
+    background-color: #52657e;
+    border-radius: 1rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+
+    padding-bottom: 5rem;
+}
+
+.card {
+    width: 18rem;
+    border: none;
+    
+}
+
+.titulo {
+    font-family: 'Caveat', cursive;
+    padding: 1rem;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.imagem {
+    width: 18rem;
+    height: 10rem;
+    transition: .7s all ease-in-out;
+    overflow: hidden;
+}
+
+.imagem-conteudo {
+    overflow: hidden;
+}
+
+.imagem:hover {
+    transform: scale(1.4); 
+}
+
+.corpo-card {
+    text-align: center;
+    background-color: #141a3c;
+    color: white;
+}
+
+.titulo-card {
+    font-family: 'Caveat', cursive;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.genero-card {
+    font-weight: bold;
+}
+
+.botao-dowload {
+    background-color: darkgreen;
+    border: none;
+    font-weight: bold;
+}
+
+.botao-dowload:hover {
+    opacity: .5;
+}
+
+.icon-torrent {
+    width: 1.4rem;
+}

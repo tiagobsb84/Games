@@ -16,6 +16,8 @@ import { AcaoComponent } from './components/categorias/acao/acao.component';
 import { AventuraComponent } from './components/categorias/aventura/aventura.component';
 import { FpsComponent } from './components/categorias/fps/fps.component';
 import { CorridaComponent } from './components/categorias/corrida/corrida.component';
+import { RpgComponent } from './components/categorias/rpg/rpg.component';
+import { SimuladorComponent } from './components/categorias/simulador/simulador.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { CorridaComponent } from './components/categorias/corrida/corrida.compon
     AcaoComponent,
     AventuraComponent,
     FpsComponent,
-    CorridaComponent
+    CorridaComponent,
+    RpgComponent,
+    SimuladorComponent
   ],
   imports: [
     BrowserModule,

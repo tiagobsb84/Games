@@ -4,6 +4,8 @@ import { AcaoComponent } from './components/categorias/acao/acao.component';
 import { AventuraComponent } from './components/categorias/aventura/aventura.component';
 import { CorridaComponent } from './components/categorias/corrida/corrida.component';
 import { FpsComponent } from './components/categorias/fps/fps.component';
+import { RpgComponent } from './components/categorias/rpg/rpg.component';
+import { SimuladorComponent } from './components/categorias/simulador/simulador.component';
 import { SectionComponent } from './components/section/section.component';
 
 const routes: Routes = [
@@ -26,6 +28,14 @@ const routes: Routes = [
   {
     path: 'corrida',
     component: CorridaComponent
+  },
+  {
+    path: 'rpg',
+    component: RpgComponent
+  },
+  {
+    path: 'simulador',
+    component: SimuladorComponent
   }
 ];
 
