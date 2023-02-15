@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AcaoComponent } from './components/categorias/acao/acao.component';
 import { AventuraComponent } from './components/categorias/aventura/aventura.component';
+import { CorridaComponent } from './components/categorias/corrida/corrida.component';
 import { FpsComponent } from './components/categorias/fps/fps.component';
 import { SectionComponent } from './components/section/section.component';
 
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'fps',
     component: FpsComponent
+  },
+  {
+    path: 'corrida',
+    component: CorridaComponent
   }
 ];
 

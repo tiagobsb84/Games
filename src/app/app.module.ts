@@ -15,6 +15,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AcaoComponent } from './components/categorias/acao/acao.component';
 import { AventuraComponent } from './components/categorias/aventura/aventura.component';
 import { FpsComponent } from './components/categorias/fps/fps.component';
+import { CorridaComponent } from './components/categorias/corrida/corrida.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { FpsComponent } from './components/categorias/fps/fps.component';
     FooterComponent,
     AcaoComponent,
     AventuraComponent,
-    FpsComponent
+    FpsComponent,
+    CorridaComponent
   ],
   imports: [
     BrowserModule,
