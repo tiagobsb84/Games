@@ -18,6 +18,8 @@ import { FpsComponent } from './components/categorias/fps/fps.component';
 import { CorridaComponent } from './components/categorias/corrida/corrida.component';
 import { RpgComponent } from './components/categorias/rpg/rpg.component';
 import { SimuladorComponent } from './components/categorias/simulador/simulador.component';
+import { EsportesComponent } from './components/categorias/esportes/esportes.component';
+import { EstrategiaComponent } from './components/categorias/estrategia/estrategia.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { SimuladorComponent } from './components/categorias/simulador/simulador.
     FpsComponent,
     CorridaComponent,
     RpgComponent,
-    SimuladorComponent
+    SimuladorComponent,
+    EsportesComponent,
+    EstrategiaComponent
   ],
   imports: [
     BrowserModule,

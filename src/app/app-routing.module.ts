@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { AcaoComponent } from './components/categorias/acao/acao.component';
 import { AventuraComponent } from './components/categorias/aventura/aventura.component';
 import { CorridaComponent } from './components/categorias/corrida/corrida.component';
+import { EsportesComponent } from './components/categorias/esportes/esportes.component';
+import { EstrategiaComponent } from './components/categorias/estrategia/estrategia.component';
 import { FpsComponent } from './components/categorias/fps/fps.component';
 import { RpgComponent } from './components/categorias/rpg/rpg.component';
 import { SimuladorComponent } from './components/categorias/simulador/simulador.component';
@@ -36,6 +38,14 @@ const routes: Routes = [
   {
     path: 'simulador',
     component: SimuladorComponent
+  },
+  {
+    path: 'esportes',
+    component: EsportesComponent
+  },
+  {
+    path: 'estrategia',
+    component: EstrategiaComponent
   }
 ];
 
