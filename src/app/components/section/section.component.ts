@@ -13,6 +13,8 @@ export class SectionComponent implements OnInit {
 
   gamer: Game[] = [];
 
+  filtro: string = "";
+
   constructor(private gameService: GameService) {}
 
   ngOnInit(): void {
@@ -20,7 +22,7 @@ export class SectionComponent implements OnInit {
   }
 
   findAll(): void {
-    this.gameService.findAll().subscribe((resposta) => {
+    this.gameService.findAllPesquisa(this.filtro).subscribe((resposta) => {
       this.gamer = resposta;
     })
   }

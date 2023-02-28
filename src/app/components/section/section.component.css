@@ -27,6 +27,35 @@
     color: whitesmoke;
 }
 
+.barra-pesquisar {
+    display: inline;
+}
+
+.campo-pesquisar {
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+.filtro {
+    border-radius: 1rem;
+    padding: 0.3rem;
+    border: none;
+}
+
+.filtro::placeholder {
+    font-size: 11px;
+    opacity: 0.7;
+}
+
+.filtro::content {
+    font-size: 11px;
+    text-align: center;
+}
+
+.filtro:active {
+    border: none;
+}
+
 .imagem {
     width: 18rem;
     height: 10rem;

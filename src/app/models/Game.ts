@@ -1,7 +1,7 @@
 export interface Game {
     id: number,
-    titulo: String,
-    imagem?: String,
-    genero: String,
-    link?: String
+    titulo: string,
+    imagem?: string,
+    genero: string,
+    link?: string
 } 

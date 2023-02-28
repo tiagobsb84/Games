@@ -1,6 +1,19 @@
 <section class="container">
 
     <h1 class="titulo">Home Games</h1>
+    <nav class="navbar bg-body-tertiary barra-pesquisar">
+        <div class="container-fluid campo-pesquisar">
+            <div class="buscar-pensamentos">
+                <input
+                  type="search"
+                  class="filtro"
+                  placeholder="O que você procurar?"
+                  [(ngModel)]="filtro"
+                  (keyup)="findAll()"
+                >
+              </div>
+        </div>
+    </nav>
 
     <div class="cards">
         <div class="card" *ngFor="let item of gamer">

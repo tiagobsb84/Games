@@ -20,6 +20,7 @@ import { RpgComponent } from './components/categorias/rpg/rpg.component';
 import { SimuladorComponent } from './components/categorias/simulador/simulador.component';
 import { EsportesComponent } from './components/categorias/esportes/esportes.component';
 import { EstrategiaComponent } from './components/categorias/estrategia/estrategia.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -42,8 +43,8 @@ import { EstrategiaComponent } from './components/categorias/estrategia/estrateg
     BrowserAnimationsModule,
     MatMenuModule,
     MatToolbarModule,
-    HttpClientModule
-
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

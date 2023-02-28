@@ -19,7 +19,7 @@ export class EsportesComponent implements OnInit {
 
   findAllEsportes(): void {
     this.gameService.findAll().subscribe((resposta) => {
-      this.gamer = resposta.filter(game => game.genero == 'esporte');
+      this.gamer = resposta.filter(game => game.genero == "esporte");
     })
   }
 }

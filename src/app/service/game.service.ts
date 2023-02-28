@@ -1,4 +1,4 @@
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { Game } from '../models/Game';
@@ -14,5 +14,16 @@ export class GameService {
 
   findAll(): Observable<Game[]>{
     return this.http.get<Game[]>(this.baseUrl);
+  }
+
+  findAllPesquisa(filtro: string): Observable<Game[]>{
+
+    let params = new HttpParams();
+
+    if(filtro.trim().length > 2) {
+      params = params.set("q", filtro);
+    }
+
+    return this.http.get<Game[]>(this.baseUrl, { params });
   }
 }
